@@ -5,3 +5,13 @@ header {
     left: 0;
     width: 100%;
 }
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero {
+    width: 70vw;
+}
