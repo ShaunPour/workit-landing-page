@@ -15,3 +15,14 @@ header {
 .hero {
     width: 70vw;
 }
+
+.bio img {
+    margin-left: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    width: 85%;
+}
+
+.insights {
+    margin-top: 45vh;
+}
