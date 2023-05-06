@@ -1,6 +1,6 @@
 header {
     background-color: purple;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -11,18 +11,28 @@ header {
     align-items: center;
     justify-content: space-around;
 }
+main {
+    position: relative;
+    top: 42vh;
+}
 
 .hero {
     width: 70vw;
 }
 
 .bio img {
-    margin-left: 1.5em;
-    margin-top: 2em;
+    position: relative;
+    left: 1.5em;
+    top: 2em;
     margin-bottom: 3em;
     width: 85%;
 }
 
-.insights {
-    margin-top: 45vh;
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 25em;
+    padding-bottom: 2em;
 }
