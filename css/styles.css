@@ -1,5 +1,10 @@
 header {
     background-color: purple;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 0;
     left: 0;
@@ -11,13 +16,35 @@ header {
     align-items: center;
     justify-content: space-around;
 }
+
+.topbar img {
+    margin-right: 2em;
+}
+
+.apply,.tailored {
+    text-decoration: underline;
+    text-decoration-color: springgreen;
+}
+
+.title {
+    text-align: center;
+}
+
+.more {
+    background-color: springgreen;
+    color: #000;
+    padding: 1.5em 3em;
+}
+
 main {
     position: relative;
-    top: 42vh;
+    top: 62vh;
 }
 
 .hero {
     width: 70vw;
+    position: relative;
+    top: 6em;
 }
 
 .bio img {
@@ -34,7 +61,7 @@ footer {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 25em;
+    top: 31em;
     padding-bottom: 2em;
 }
 
@@ -53,7 +80,28 @@ top: 1em;
 }
 
 .bio-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 4.8em;
+    color: #fff;
     background-color: blueviolet;
+    padding-bottom: 5em;
+}
+
+.bio-txt p {
+    width: 7    5%;
+    text-align: center;
+}
+
+.bio-txt button {
+    position: relative;
+    top: 2em;
+    background-color: springgreen;
+    color: #000;
+    padding: 1.5em 3em;
 }
 
 .num {
