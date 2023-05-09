@@ -126,4 +126,29 @@ top: 1em;
     .topbar img {
         margin-right: 53vw;
     }
+
+    .insights,.data,.affordable {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .affordable .txt, .data .txt, .insights .txt {
+        width: 45%;
+    }
+
+    .num {
+        margin-right: 2em;  
+    }
+
+    .inner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .insights,.data,.affordable {
+        position: relative;
+        left: 19vw;
+    }
 }
