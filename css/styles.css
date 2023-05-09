@@ -151,4 +151,38 @@ top: 1em;
         position: relative;
         left: 19vw;
     }
+
+    header {
+        font-size: 22px;
+    }
+
+    .more {
+        margin-top: 4em;
+        font-size: 25px;
+    }
+
+    main {
+        top: 58em;
+    }
+
+    .bio img {
+        width: 40%;
+    }
+
+    .bio-txt {
+        position: relative;
+        left: 12em;
+        bottom: 6em;
+        width: 55%;
+        font-size: 20px;
+    }
+
+    .access-btn {
+        margin-right: 6em;
+        font-size: 18px;
+    }
+
+    footer {
+        top: 80vh;
+    }
 }
