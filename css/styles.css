@@ -24,6 +24,7 @@ header {
 .apply,.tailored {
     text-decoration: underline;
     text-decoration-color: springgreen;
+    text-underline-offset: 0.28em;
 }
 
 .title {
@@ -119,4 +120,10 @@ top: 1em;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .topbar img {
+        margin-right: 53vw;
+    }
 }
