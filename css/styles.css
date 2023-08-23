@@ -62,7 +62,7 @@ footer {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 31em;
+    top: 44em;
     padding-bottom: 2em;
 }
 
@@ -185,4 +185,8 @@ top: 1em;
     footer {
         top: 80vh;
     }
+}
+
+@media (min-width: 1440px) {
+    
 }
