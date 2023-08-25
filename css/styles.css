@@ -128,6 +128,7 @@ top: 1em;
     }
 
     .insights,.data,.affordable {
+        margin-left: 50px;
         flex-direction: row;
         justify-content: space-evenly;
     }
@@ -154,6 +155,7 @@ top: 1em;
 
     header {
         font-size: 22px;
+        width: 118vw;
     }
 
     .more {
@@ -184,6 +186,7 @@ top: 1em;
 
     footer {
         top: 80vh;
+        left: 5vw;
     }
 }
 
