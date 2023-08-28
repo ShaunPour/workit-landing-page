@@ -193,6 +193,7 @@ top: 1em;
 @media (min-width: 1440px) {
     header {
         height: 50%;
+        width: 100vw;
     }
 
     .topbar, .apply,.title {
@@ -200,9 +201,9 @@ top: 1em;
     }
 
     .apply {
-        bottom: 12vh;
-        left: 28vw;
-        width: initial;
+        bottom: 18vh;
+        left: 16vw;
+        width: 16vw;
     }
 
     .topbar img {
@@ -229,5 +230,28 @@ top: 1em;
         position: relative;
         top: 10vh;
         right: 5vw;
+    }
+    .insights,.data,.affordable {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 2em;
+        text-align: center;
+    }
+
+    .insights {
+        left: 15vw;
+    }
+
+    #one {
+        position: relative;
+        right: 20vw;
+    }
+
+    .insights .inner .txt {
+        position: relative;
+        right: 6vw;
     }
 }
