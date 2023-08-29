@@ -209,7 +209,7 @@ top: 1em;
     .topbar img {
         position: absolute;
         bottom: 21vh;
-        right: -10vw;
+        right: -19vw;
         z-index: 5000;
     }
 
@@ -241,17 +241,37 @@ top: 1em;
         text-align: center;
     }
 
-    .insights {
+    .insights, .data, .affordable {
         left: 15vw;
     }
 
-    #one {
+    .data .inner {
         position: relative;
-        right: 20vw;
+        left: 4vw;
     }
 
-    .insights .inner .txt {
+    .affordable .inner {
+        position: relative;
+        left: 6vw;
+    }
+
+    #one, #two, #three {
+        position: relative;
+        right: 20vw;
+        width: 3%;
+    }
+
+    .insights .inner .txt, .data .inner .txt, .affordable .inner .txt {
         position: relative;
         right: 6vw;
+    }
+    
+    .affordable .inner .txt {
+        right: 9vw;
+    }
+
+    .bio-txt {
+        bottom: 29vh;
+        left: 34vw;
     }
 }
