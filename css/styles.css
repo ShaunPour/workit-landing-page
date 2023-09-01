@@ -52,6 +52,11 @@ main {
     top: 6em;
 }
 
+.bio {
+    position: relative;
+    top: 65vh;
+}
+
 .bio img {
     position: relative;
     left: 1.5em;
@@ -66,7 +71,7 @@ footer {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 44em;
+    top: 50em;
     padding-bottom: 2em;
 }
 
@@ -176,6 +181,10 @@ top: 1em;
         top: 58em;
     }
 
+    .bio {
+        top: 85vh;
+    }
+
     .bio img {
         width: 40%;
     }
@@ -246,7 +255,6 @@ top: 1em;
         align-items: center;
         justify-content: center;
         position: relative;
-        left: 2em;
         text-align: center;
     }
 
@@ -261,29 +269,40 @@ top: 1em;
         left: 15vw;
     }
 
-    .data .inner {
-        position: relative;
-        left: 4vw;
+    .insights .inner h3 {
+        left: -7vw;
     }
 
-    .affordable .inner {
-        position: relative;
-        left: 6vw;
+    .data .inner h3 {
+        left: -9vw;
+    }
+
+    .affordable .inner h3 {
+        left: -8vw;
+    }
+
+    .insights .inner h3, .data .inner h3, .affordable .inner h3 {
+        position: absolute;
+        top: 0;
+        width: 100%;
     }
 
     #one, #two, #three {
         position: relative;
-        right: 20vw;
         width: 3%;
+        bottom: 5vh;
     }
 
-    .insights .inner .txt, .data .inner .txt, .affordable .inner .txt {
-        position: relative;
-        right: 6vw;
+    #one {
+        left: -6vw;
     }
-    
-    .affordable .inner .txt {
-        right: 9vw;
+
+    #two {
+        left: -8vw;
+    }
+
+    #three {
+        left: -8vw;
     }
 
     .bio {
