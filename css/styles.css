@@ -42,6 +42,10 @@ main {
     top: 62vh;
 }
 
+.inner {
+    text-align: center;
+}
+
 .hero {
     width: 70vw;
     position: relative;
@@ -93,7 +97,7 @@ top: 1em;
 }
 
 .bio-txt p {
-    width: 7    5%;
+    width: 100%;
     text-align: center;
 }
 
@@ -148,6 +152,11 @@ top: 1em;
         justify-content: center;
     }
 
+    .inner h3 {
+        position: relative;
+        left: 3em;
+    }
+
     .insights,.data,.affordable {
         position: relative;
         left: 19vw;
@@ -175,7 +184,7 @@ top: 1em;
         position: relative;
         left: 12em;
         bottom: 6em;
-        width: 55%;
+        width: 75%;
         font-size: 20px;
     }
 
@@ -193,7 +202,7 @@ top: 1em;
 @media (min-width: 1440px) {
     header {
         height: 50%;
-        width: 100vw;
+        width: 114%;
     }
 
     .topbar, .apply,.title {
@@ -241,6 +250,13 @@ top: 1em;
         text-align: center;
     }
 
+    main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     .insights, .data, .affordable {
         left: 15vw;
     }
@@ -270,8 +286,19 @@ top: 1em;
         right: 9vw;
     }
 
+    .bio {
+        position: relative;
+        top: 95vh;
+    }
     .bio-txt {
         bottom: 29vh;
         left: 34vw;
+        width: 55%;
+    }
+
+    .access-btn:hover {
+        border: 2px solid #fff;
+        background-color: blueviolet;
+        color: springgreen;
     }
 }
