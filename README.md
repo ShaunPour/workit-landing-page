@@ -33,8 +33,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/DarkPhoenixNinja92/workit-landing-page)
-- Live Site URL: [Live Site](https://darkphoenixninja92.github.io/workit-landing-page)
+- Solution URL: [GitHub Repository](https://github.com/shaunpour/workit-landing-page)
+- Live Site URL: [Live Site](https://shaunpour.github.io/workit-landing-page)
 
 ### Built with
 
